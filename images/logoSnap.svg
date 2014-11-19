@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="160px" viewBox="0 0 500 160" style="enable-background:new 0 0 500 160;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{display:inline;}
+	.st1{fill:#00C8D2;}
+	.st2{display:none;}
+]]>
+</style>
+<g id="Calque_1_1_" class="st2">
+	
+		<image style="display:inline;overflow:visible;enable-background:new    ;" width="175" height="37" xlink:href="3BE4D4F3.jpeg"  transform="matrix(0.9943 0 0 0.973 1071.0264 141.9805)">
+	</image>
+	<g class="st0">
+		
+			<image style="overflow:visible;enable-background:new    ;" width="3361" height="1051" xlink:href="3BE4D4F1.jpeg"  transform="matrix(0.9997 0 0 0.999 -540.9727 -366.0205)">
+		</image>
+	</g>
+</g>
+<polygon class="st1" points="500,120 430,160 360,120 360,40 430,0 500,40 "/>
+<polygon class="st1" points="320,120 250,160 180,120 180,40 250,0 320,40 "/>
+<polygon class="st1" points="140,120 70,160 0,120 0,40 70,0 140,40 "/>
+</svg>
