@@ -169,11 +169,29 @@
 		clear: both;
 	}
 	
+	#headerscroll {
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.headerscroll {
+		display: none;
+		position: fixed;
+		top: 0;
+		z-index: 9999;
+		border-bottom: 1px solid #3c3e47;
+	}
+	
 	header {
 		min-height: 40px;
 		padding: 20px 40px;
-		background: #15111c;
 		overflow: hidden;
+		background-color: #15111c;
+	}
+	
+	.headerscroll header {
+		background-color: rgba(21,17,28,0.9) !important;
+		padding: 10px 40px !important;
 	}
 	
 	.logo {

@@ -31,6 +31,22 @@
 		} else {
 			$( "*" ).removeClass("animsition");	
 		};
+		
+		var headerheight = $('#headerscroll').height();
+		var headerposition = $('#headerscroll').position().top + 160;
+		
+		$(window).scroll(function(){
+			if (($(this).scrollTop() > headerposition) && (isWinDskp == "NT")) {
+				$('#headerscroll').addClass("headerscroll");
+				$('#wrapper').css("margin-top", headerheight);
+				$('#headerscroll').fadeIn();
+			} else if (isWinDskp == "NT") {
+				$('#headerscroll').removeClass("headerscroll");
+				$('#wrapper').css("margin-top", 0);
+				$('#headerscroll').css("display", "");
+			}
+		}); 
+		
 	}); 
 </script>
 	
@@ -53,7 +69,7 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){ 
-		
+
 		$(window).scroll(function(){
 			if ($(this).scrollTop() > 100) {
 				$('.scrollup').fadeIn();
