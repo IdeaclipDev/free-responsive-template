@@ -4,8 +4,8 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 	
-		//var windowsize = $(window).width();
-		var useragent = navigator.userAgent,
+		var windowsize = $(window).width(),
+			useragent = navigator.userAgent,
 			isIphone = useragent.match(/iPhone/i),
 			isIpad = useragent.match(/iPad/i),
 			isWinDskp = useragent.match(/NT/i);
@@ -32,11 +32,11 @@
 			$( "*" ).removeClass("animsition");	
 		};
 		
-		var headerheight = $('#headerscroll').height();
-		var headerposition = $('#headerscroll').position().top + 160;
-		
+		var headerheight = $('#headerscroll').height(),
+			headerposition = $('#headerscroll').position().top + 160;
+
 		$(window).scroll(function(){
-			if (($(this).scrollTop() > headerposition) && (isWinDskp == "NT")) {
+			if (($(this).scrollTop() > headerposition) && (isWinDskp == "NT") && (windowsize > 767)) {
 				$('#headerscroll').addClass("headerscroll");
 				$('#wrapper').css("margin-top", headerheight);
 				$('#headerscroll').fadeIn();
