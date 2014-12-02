@@ -438,9 +438,22 @@
 		height: 100%;
 		background: url(../images/stripe.png) no-repeat top center #15111c;
 	}
+	
+	#top-preview {
+		height: 360px;
+		margin: 0 0 30px;
+		overflow: hidden;
+		
+		background: #15111c;
+		border-bottom: 1px solid #3c3e47;
+	}
+	
+	#top-preview .container {
+		position: relative;
+	}
 /* SERVICES */
 	.services {
-		min-height: 380px;
+		min-height: 360px;
 	}
 /* FORM CONTACT */	
 	.sendcontact {
@@ -485,6 +498,12 @@
 /* #Media Queries
 ================================================== */
 
+	@media only screen and (max-width: 1199px) {
+		.services {
+			min-height: 380px;
+		}
+	}
+	
 	/* Scroll to top */
 	@media only screen and (max-width: 1132px) {
 		.hidden-scroll {

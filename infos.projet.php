@@ -24,6 +24,14 @@
 	
 	<!-- Content
 	================================================== -->
+	<div id="top-preview" class="hidden-phone">
+		<div class="container">
+			<div class="sixteen columns">
+				<img src="http://placehold.it/1240x1400" alt="Description du projet" class="scale-with-grid">
+			</div>
+		</div>
+	</div><!-- top preview -->
+	
 	<div class="container">
 	
 		<?php include('inc/titleprojets.inc.php'); ?>
