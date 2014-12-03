@@ -422,16 +422,12 @@
 		transform: translate3d(-50%,-50%,0);	*/
 	}
 	
+	#icones-services img {
+		margin: 0 0 0 40px;
+	}
+	
 	#icones-services img:first-child {
-		margin: 0 40px 0 0;
-	}
-	
-	#icones-services img:last-child {
-		margin: 0 0 0 40px;
-	}
-	
-	.last {
-		margin: 0 0 0 40px;
+		margin: 0;
 	}
 	
 	.stripe {

@@ -7,7 +7,7 @@
 			<a href="services.php" class="animsition-link">
 				<img src="images/web-design.png" alt="Web design">
 				<img src="images/web-development.png" alt="Web development">
-				<img class="last" src="images/graphic-design.png" alt="Graphic design">
+				<img src="images/graphic-design.png" alt="Graphic design">
 			</a>
 			</div>
 				<p class="hay colorwhite bigger marginprinc-top">Portfolio Template</p>
