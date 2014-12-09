@@ -40,7 +40,7 @@
 			<h3 class="blueh geo paddingone-bot marginone-bot">Mes coordonnées</h3>
 			<p class="colorgrey">
 				<!-- <span class="phone"><a href="tel:+33">33</a></span><br /> -->
-				<span class="mail"><a href="mailto:ideaclip.fb@gmail.com">votre.adresse.email@domaine.com</a></span><br />
+				<span class="mail"><a href="mailto:votre.adresse.email@domaine.com">votre.adresse.email@domaine.com</a></span><br />
 				<span class="adresse">Adresse</span>
 			</p>
 		</div><!-- coordonnées -->
